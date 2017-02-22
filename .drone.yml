@@ -28,6 +28,11 @@ deploy:
         urls:
             - https://$$control.sandbox.imapex.io/marathon/v2/apps/class/$$tsekii/restart?force=true
 
+notify:
+    spark:
+        image: tsekii/drone-spark
+        auth_token: $$NWM0NzhiOWMtMzY0ZS00NzJiLTg5ZmItOGZlODczMGYzZDYwOTM1OTBiOTUtODhh
+        roomId: $$Y2lzY29zcGFyazovL3VzL1JPT00vYTNhNjA4YjAtZjQyYS0xMWU2LWEwMDItMWY2MWUxNDU5ZTcy
 
 
 
